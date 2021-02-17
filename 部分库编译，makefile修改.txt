@@ -1,0 +1,21 @@
+1. libcurl 编译 with libssh2 和ssl
+./configure --with-libssh2  --with-ssl CPPFLAGS="-I/home/admini/build_ssl/libssh2/include -I/home/admini/build_ssl/include/" LDFLAGS="-Wl,-rpath=. -L/home/admini/build_ssl/libssh2/lib -L/home/admini/build_ssl/lib/"=
+2.ffmpeg编译，动态库，链接当前目录
+./configure  --prefix=host --enable-shared --disable-static --disable-doc --disable-x86asm
+# $(FFLIBS-yes) needs to be in linking order
+FFLIBS-$(CONFIG_AVDEVICE)   += avdevice
+FFLIBS-$(CONFIG_AVFILTER)   += avfilter
+FFLIBS-$(CONFIG_AVFORMAT)   += avformat
+FFLIBS-$(CONFIG_AVCODEC)    += avcodec
+FFLIBS-$(CONFIG_AVRESAMPLE) += avresample
+FFLIBS-$(CONFIG_POSTPROC)   += postproc
+FFLIBS-$(CONFIG_SWRESAMPLE) += swresample
+FFLIBS-$(CONFIG_SWSCALE)    += swscale
+
+FFLIBS := avutil
+###加上这一句
+LDFLAGS= -Wl,-rpath=.
+
+DATA_FILES := $(wildcard $(SRC_PATH)/presets/*.ffpreset) $(SRC_PATH)/doc/ffprobe.xsd
+
+SKIPHEADERS = compat/w32pthreads.h
