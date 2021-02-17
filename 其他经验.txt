@@ -1,0 +1,3 @@
+1.suse linux 加固情况下，使用sftp传输，libssh2库要开启键盘认证。使用libcurl要和libssh联合编译
+2.红旗linux3版本的sshv1版本有问题，使用libssh2，传输较慢，使用TGPuttyLib
+3.ffmpeg 使用，抽帧，多图片合成
