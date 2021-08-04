@@ -31,3 +31,12 @@
 
 []:  https://github.com/dusong7/cpp-backend-reference
 
+[]:  https://github.com/dusong7/InterviewGuide
+
+[]:  https://github.com/youngyangyang04/TechCPP
+
+[]:  https://github.com/colinlet/PHP-Interview-QA
+
+[]:  https://github.com/across-travel/FUCK_TCP
+
+
