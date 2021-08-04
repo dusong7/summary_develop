@@ -39,13 +39,12 @@
 
 []:  https://github.com/across-travel/FUCK_TCP
 
-
- [huihut/interview: C/C++ 技术面试基础知识总结](https://github.com/huihut/interview)
+- [huihut/interview: C/C++ 技术面试基础知识总结](https://github.com/huihut/interview)
 - [interview_back_end: Linux C/C++ 后台开发 面试题目](https://github.com/zouxiaobo/interview_back_end)
 - [InterviewGuide: 逆袭进大厂](https://github.com/forthespada/InterviewGuide)
 - [note-of-interview: 互联网面试常见问题](https://github.com/zhengjianglong915/note-of-interview)
 - [EmbeddedSoftwareEngineerInterview: 嵌入式软件工程师笔试面试指南](https://github.com/ZhongYi-LinuxDriverDev/EmbeddedSoftwareEngineerInterview)
-- [CodingInterviewsNotes: 女友换工作了，特整理的面试题](https://github.com/yzhu798/CodingInterviewsNotes)
+- [CodingInterviewsNotes: 特整理的面试题](https://github.com/yzhu798/CodingInterviewsNotes)
 - [CodingInterviews: 剑指offer面试题代码实现](https://github.com/gatieme/CodingInterviews)
 - [interview: 剑指offer、九度OJ面试题实现](https://github.com/taohi/interview)
 - [CS-Books: 超过1000本的计算机经典书籍分享](https://github.com/forthespada/CS-Books)
