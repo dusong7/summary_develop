@@ -47,6 +47,6 @@ binutils
 
 
 ## 技能图
-![技能图](jineng.jpg)
+![](jineng.jpg) 
 
 
