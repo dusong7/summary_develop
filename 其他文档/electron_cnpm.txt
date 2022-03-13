@@ -33,11 +33,11 @@ C:\Users\admini\AppData\Roaming\npm\cnpm
 注意：环境突然搞坏了，运行不了程序，恢复命令步骤：
 
     安装cnpm：npm install -g  cnpm  --registry=http://registry.npm.taobao.org
-
+    
                      将cnpm加入到path环境变量
-
+    
     安装electron ： cnpm  install -g electron 
-
+    
     再运行程序
 
 export NODE_HOME=/usr/local/nodejs/bin
@@ -107,7 +107,7 @@ linux系统:"packageLinux": "electron-packager . 'Hosts' --platform=linux --arch
 }
 
 
- 
+
 
 命令说明： 
 * location of project：项目所在路径 
@@ -136,7 +136,7 @@ https://github.com/electron/electron/issues/26827
 1.下载electron-packager:运行命令 npm install electron-packager --save-dev
 
 
- 
+
 
  2.在packageage.json中加入"packager": "electron-packager ./ --platform=[linux/win32/darwin/all ] --arch=x64 --overwrite"([]中只能选择一个分别代表linux/windows/mac中使用的包,all代表全部)
 
@@ -297,10 +297,10 @@ function createWindow() {
     }))
      // 加载应用的 index.html
      // mainWindow.loadURL('file://' + __dirname + '/index.html');
-
+    
     // Open the DevTools. // 打开开发工具 mainWindow.openDevTools();
     // mainWindow.webContents.openDevTools()
-
+    
     // Emitted when the window is closed.
     mainWindow.on('closed', function () {
         // Dereference the window object, usually you would store windows
